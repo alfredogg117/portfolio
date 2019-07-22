@@ -46,8 +46,6 @@ app.get('/poker', (req, res)=>{
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 bot.on('ready', ()=>{
 
-bot.channels.get("570161021637885964").send(`Cracker-bot back on`);
-bot.channels.array()[1].send(`Cracker-bot Online: for a list of commands, type !commands`);
 
 });
 
@@ -58,8 +56,8 @@ app.get('/beats', (req, res)=>{
 
 paypal.configure({
   'mode': 'live', //sandbox or live
-  'client_id': 'ARP-P_o_Q06DySYOm1TNfDezMTbCBgIxd7Ch5jmdscwkSaODWJUy9LO2g8W8JpZWPi5idA5Kd4w3N2Zz',
-  'client_secret': 'EAfkH8axDCim6-5MoHhh_R0Ne3o_T_Jd6gXLbU_asqTnFBwDcKcb_udcEN8wplBAb8T-AYzPaHlFjpGW'
+  'client_id': '',
+  'client_secret': ''
 });
 let typePrice = 10.00;
 app.post('/beats/checkout', (req, res)=>{
@@ -183,4 +181,4 @@ bot.on('message', message =>{
 
 
 
-bot.login('NTgzOTgzMjk4OTE3ODI2NTcw.XPES3A.A4ZKPLJU9gqlnrN5yW-_SjZ-r2I');
+bot.login('');
