@@ -145,3 +145,8 @@ p{
   padding-top:15px;
   padding-bottom:5px;
 }
+
+#formStyle h2{
+  margin-top:8px;
+  text-align: center;
+}

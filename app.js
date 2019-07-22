@@ -58,8 +58,8 @@ app.get('/beats', (req, res)=>{
 
 paypal.configure({
   'mode': 'live', //sandbox or live
-  'client_id': '',
-  'client_secret': ''
+  'client_id': 'ARP-P_o_Q06DySYOm1TNfDezMTbCBgIxd7Ch5jmdscwkSaODWJUy9LO2g8W8JpZWPi5idA5Kd4w3N2Zz',
+  'client_secret': 'EAfkH8axDCim6-5MoHhh_R0Ne3o_T_Jd6gXLbU_asqTnFBwDcKcb_udcEN8wplBAb8T-AYzPaHlFjpGW'
 });
 let typePrice = 10.00;
 app.post('/beats/checkout', (req, res)=>{
@@ -183,4 +183,4 @@ bot.on('message', message =>{
 
 
 
-bot.login('');
+bot.login('NTgzOTgzMjk4OTE3ODI2NTcw.XPES3A.A4ZKPLJU9gqlnrN5yW-_SjZ-r2I');
